@@ -5,7 +5,7 @@ install.packages("f1dataR")
 library(f1dataR)
 
 # Set the cache directory to the existing "cache" folder in the current directory
-options(f1dataR.cache = "cache")  # Use the folder named "cache"
+options(f1dataR.cache = "f1dataR-cache")  # Use the folder named "cache"
 
 # Load lap times for the Bahrain Grand Prix, 2023 (using round instead of race)
 laps <- load_laps(season = 2023, round = 1)  # Use the correct round number
